@@ -1,6 +1,6 @@
 # Brazilian E-Commerce SQL Analysis — Olist
 
-## 📊 Project Overview
+## Project Overview
 
 This project analyzes the Brazilian Olist e-commerce dataset using **PostgreSQL** to explore sales performance, customer behavior, seller performance, payment methods, delivery performance, and customer satisfaction.
 
@@ -8,7 +8,7 @@ The goal of the project is to answer practical business questions using SQL and 
 
 ---
 
-## 🎯 Business Questions
+## Business Questions
 
 The analysis focuses on the following areas:
 
@@ -46,7 +46,7 @@ The analysis focuses on the following areas:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **PostgreSQL**
 - **SQL**
@@ -55,7 +55,7 @@ The analysis focuses on the following areas:
 
 ---
 
-## 🧠 SQL Concepts Demonstrated
+## SQL Concepts Demonstrated
 
 This project demonstrates practical use of:
 
@@ -81,7 +81,7 @@ This project demonstrates practical use of:
 
 ---
 
-## 🗄️ Database Structure
+## Database Structure
 
 The project uses the following main Olist tables:
 
@@ -98,7 +98,7 @@ The tables are connected through primary and foreign key relationships to allow 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 olist-ecommerce-sql-analysis/
