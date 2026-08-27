@@ -103,8 +103,6 @@ The tables are connected through primary and foreign key relationships to allow 
 ```text
 olist-ecommerce-sql-analysis/
 │
-├── README.md
-│
 ├── 01_create_tables.sql
 ├── 02_check_tables.sql
 ├── 03_import_data.sql
