@@ -2,11 +2,19 @@
 
 ## Project Overview
 
-This project analyzes the Brazilian Olist e-commerce dataset using **PostgreSQL** to explore sales performance, customer behavior, seller performance, payment methods, delivery performance, and customer satisfaction.
+This project analyses the Brazilian Olist e-commerce dataset using **PostgreSQL** and **Power BI**. It explores sales performance, customer behaviour, seller performance, payment methods, logistics, delivery performance, and customer satisfaction.
 
-The goal of the project is to answer practical business questions using SQL and demonstrate the use of relational databases for business and data analysis.
+The project demonstrates an end-to-end analytics workflow:
+
+1. Build and validate a relational PostgreSQL database from CSV files.
+2. Query the data to answer business questions.
+3. Create an interactive Power BI dashboard to communicate actionable insights.
 
 ---
+
+## Dataset
+
+The project uses the Brazilian E-Commerce Public Dataset by Olist. It includes approximately 100,000 orders placed between 2016 and 2018, with linked data on customers, sellers, products, payments, reviews, and delivery.
 
 ## Business Questions
 
@@ -50,6 +58,7 @@ The analysis focuses on the following areas:
 
 - **PostgreSQL**
 - **SQL**
+- **Power BI**
 - **VS Code**
 - **Git & GitHub**
 
@@ -97,6 +106,11 @@ The project uses the following main Olist tables:
 The tables are connected through primary and foreign key relationships to allow analysis across customers, orders, products, sellers, payments, and reviews.
 
 ---
+## Power BI Dashboard
+
+The Power BI dashboard turns the SQL analysis into an interactive, business-focused report. It includes three pages covering marketplace performance, logistics, sellers, customers, and products.
+
+---
 
 ## Project Structure
 
@@ -108,4 +122,11 @@ olist-ecommerce-sql-analysis/
 ├── 03_import_data.sql
 ├── 04_database_checks.sql
 ├── 05_add_relationships.sql
-└── 06_data_exploration.sql
+├── 06_data__exploration.sql
+├── powerbi/
+│   ├── olist_powerbi.pbix
+│   ├── Overview.png
+│   ├── Logistics and Seller Performance.png
+│   └── Customer and Product Analysis.png
+└── README.md
+```
